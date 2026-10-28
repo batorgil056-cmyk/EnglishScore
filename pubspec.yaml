@@ -1,0 +1,29 @@
+name: englishscore_intro
+version: 1.0.0+1
+description: EnglishScore-style introductory screens demo (Flutter web)
+publish_to: none
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  camera: ^0.12.1
+  device_info_plus: ^12.3.0
+  flutter_svg: ^2.0.10+1
+  flutter_tts: ^4.2.5
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.2
+  flutter:
+    sdk: flutter
+  share_plus: ^12.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/pretest/
+dev_dependencies:
+  url_launcher_platform_interface: ^2.3.2
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
